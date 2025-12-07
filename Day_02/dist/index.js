@@ -1,7 +1,7 @@
 /*
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({apiKey: "AIzaSyC_uDTcz3ZC5wyklDqK4gBfX9V5h8WwegU"});
+const ai = new GoogleGenAI({apiKey: "Give the Gemini API KEY"});
 
 async function main() {
   const response = await ai.models.generateContent({
@@ -18,9 +18,9 @@ await main();
 // when we chat in chatGPT then current msg is not send alone to the gpt server , previous chat is also sent for the context
 // so now more token is used ,, in further classes we will see optimization technique of this
 // so now more token is used ,, in further classes we will see optimization technique of this
-// now lets give history also
+// now lets give history also, so that the model gets some context
 import { GoogleGenAI } from "@google/genai";
-const ai = new GoogleGenAI({ apiKey: "AIzaSyC_uDTcz3ZC5wyklDqK4gBfX9V5h8WwegU" });
+const ai = new GoogleGenAI({ apiKey: "GEMINI API KEY" });
 async function main() {
     const response = await ai.models.generateContent({
         model: "gemini-2.5-flash",
